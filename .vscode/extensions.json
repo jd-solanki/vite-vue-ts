@@ -1,6 +1,10 @@
 {
   "recommendations": [
     "johnsoncodehk.volar",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "mgmcdermott.vscode-language-babel",
+    "editorconfig.editorconfig",
+    "xabikos.javascriptsnippets",
+    "massi.javascript-docstrings"
   ]
 }
