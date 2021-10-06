@@ -1,5 +1,21 @@
 {
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // JSON
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // Vue
     "[vue]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
+    // Extension: ESLint
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true,
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
 }
