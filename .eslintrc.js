@@ -9,6 +9,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:vue/vue3-recommended',
+    'plugin:import/recommended',
+    'plugin:promise/recommended',
+    'plugin:sonarjs/recommended',
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
@@ -21,9 +24,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: [],
   globals: {
     defineProps: 'readonly',
     defineEmits: 'readonly',
