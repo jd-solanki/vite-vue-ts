@@ -5,6 +5,7 @@
     "mgmcdermott.vscode-language-babel",
     "editorconfig.editorconfig",
     "xabikos.javascriptsnippets",
-    "massi.javascript-docstrings"
+    "massi.javascript-docstrings",
+    "stylelint.vscode-stylelint"
   ]
 }

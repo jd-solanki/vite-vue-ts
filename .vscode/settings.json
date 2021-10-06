@@ -1,5 +1,9 @@
 {
     "javascript.updateImportsOnFileMove.enabled": "always",
+    // SCSS
+    "[scss]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
     // JSON
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -14,6 +18,7 @@
     // Extension: ESLint
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true,
         "source.organizeImports": true,
     },
     "eslint.alwaysShowStatus": true,
